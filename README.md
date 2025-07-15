@@ -1,5 +1,7 @@
 # AutonomousVehicleVision 2025 OTONOM ARAÇLARDA ŞERİT TAKİBİ VE LEVHA TESPİTİ UYGULAMALARI
 
+<img width="650" height="366" alt="image" src="https://github.com/user-attachments/assets/fe187b3b-85a3-47ba-89db-193c80f18daa" />
+
 ## GAZEBO HARMONIC KURULUMU
 
 Ubuntu üzerinde bir terminal açın ve aşağıdaki kodları çalıştırın.
@@ -159,7 +161,7 @@ ros2 param set /only_detection_and_classification use_sim_time true
 ```bash
 ros2 run control_2025 detector_sub.py
 ```
-<img width="650" height="366" alt="image" src="https://github.com/user-attachments/assets/fe187b3b-85a3-47ba-89db-193c80f18daa" />
+
 
 
 
