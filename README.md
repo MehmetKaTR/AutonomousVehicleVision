@@ -159,6 +159,7 @@ ros2 param set /only_detection_and_classification use_sim_time true
 ```bash
 ros2 run control_2025 detector_sub.py
 ```
+<img width="649" height="731" alt="image" src="https://github.com/user-attachments/assets/e939caa8-d905-492a-9655-091adccb6abe" />
 
 
 
