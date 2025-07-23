@@ -1,6 +1,58 @@
-# AutonomousVehicleVision 2025 OTONOM ARAÇLARDA ŞERİT TAKİBİ VE LEVHA TESPİTİ UYGULAMALARI
+#AutonomousVehicleVision Şerit Takibi, Trafik Tabelası Tanıma ve İnsan Algılama ile Otonom Sürüş
 
 <img width="650" height="366" alt="image" src="https://github.com/user-attachments/assets/fe187b3b-85a3-47ba-89db-193c80f18daa" />
+
+📌 Proje Özeti
+Bu proje, otonom sürüş teknolojilerinin temel yapı taşlarından biri olan görsel algılama sistemleri üzerine odaklanmaktadır.
+2025 yılına yönelik olarak geliştirilen bu sistem:
+
+Yol şeritlerini tespit edip aracın konumunu korumasını sağlar.
+
+Trafik levhalarını tanıyarak doğru kararlar alınmasına yardımcı olur.
+
+Yaya tespiti yaparak güvenliği artırır.
+
+Mesafe ölçümü ile çarpışma öncesi tepki süresini yönetir.
+
+ROS2 + Gazebo Harmonic ile simüle edilen bir ortamda test edilmiştir.
+
+YOLOPv2 modeli ile gerçek zamanlı görüntü işleme yapılmıştır.
+
+🎯 Hedeflenen Uygulamalar
+Özellik	Açıklama
+🚧 Şerit Takibi	Aracın şerit içindeki konumunu korur.
+📷 Görüntü İşleme	Kamera verileri üzerinden gerçek zamanlı analiz yapılır.
+🛑 Tabela Tanıma	Trafik işaretleri tespit edilip sınıflandırılır.
+🧍‍♂️ Yaya Algılama	Yolda karşılaşılan insanlar tespit edilip sistem durur.
+📏 Mesafe Ölçümü	Lidar/kamera verileriyle öndeki nesnelerle mesafe hesaplanır.
+🧠 Otonom Kontrol	ROS2 üzerinden kontrol algoritmaları ile karar verme sağlanır.
+
+📸 Örnek Görseller
+Aşağıdaki görseller projede yapılan bazı örnek çıktıları temsil etmektedir:
+
+🔹 Şerit Takibi Örneği
+![WhatsApp Görsel 2025-07-16 saat 23 26 52_428179f1](https://github.com/user-attachments/assets/c20fd587-e4d5-4904-9592-a179b2e1f5b8)
+
+
+🔹 Trafik Levhası Tanıma
+![WhatsApp Görsel 2025-07-16 saat 23 26 52_f73b8404](https://github.com/user-attachments/assets/63843c9f-92c9-4fc5-b21c-ed19fb009314)
+
+
+🔹 İnsan Tespiti
+![WhatsApp Görsel 2025-07-16 saat 23 26 52_c707e1ba](https://github.com/user-attachments/assets/ce33362f-68a6-4363-922c-9255a597fa56)
+
+
+🔹 Mesafe Ölçümü
+![WhatsApp Görsel 2025-07-16 saat 23 26 52_02e51741](https://github.com/user-attachments/assets/da5175a2-7ae9-44da-8d50-a72a2833b452)
+
+
+🔹 Araç Duruş Anı
+![WhatsApp Görsel 2025-07-16 saat 23 26 52_3c4e5b39](https://github.com/user-attachments/assets/8bec99b1-f016-4438-8cf5-45adf295563c)
+
+
+
+
+# Gazebo Ortamında Test Etmek İçin;
 
 ## GAZEBO HARMONIC KURULUMU
 
