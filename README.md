@@ -1,4 +1,4 @@
-#AutonomousVehicleVision Şerit Takibi, Trafik Tabelası Tanıma ve İnsan Algılama ile Otonom Sürüş
+# AutonomousVehicleVision Şerit Takibi, Trafik Tabelası Tanıma ve İnsan Algılama ile Otonom Sürüş
 
 <img width="650" height="366" alt="image" src="https://github.com/user-attachments/assets/fe187b3b-85a3-47ba-89db-193c80f18daa" />
 
